@@ -1,6 +1,6 @@
 {
   "name": "vitepress-for-component-custom",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "dumi like documentation tool",
   "main": "dist/node/index.js",
   "typings": "types/index.d.ts",
@@ -23,12 +23,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dewfall123/vitepress-for-component.git"
+    "url": "git+https://github.com/yanyu-fe/vitepress-for-component-custom.git"
   },
   "bugs": {
-    "url": "https://github.com/dewfall123/vitepress-for-component/issues"
+    "url": "https://github.com/yanyu-fe/vitepress-for-component-custom/issues"
   },
-  "homepage": "https://github.com/dewfall123/vitepress-for-component/#readme",
+  "homepage": "https://github.com/yanyu-fe/vitepress-for-component-custom/#readme",
   "scripts": {
     "dev": "yarn dev-shared && yarn dev-start",
     "dev-start": "run-p dev-client dev-node dev-watch",
