@@ -83,7 +83,7 @@ export default {
     const getDesc = computed(()=>{
       // 判断数据中是否存在\n，存在就对当前的数据做换行处理
       const desc = props.desc;
-      return desc?.replace(/\\n/,"<br/>")
+      return desc?.replace(/\\n/g,"<br/>")
     })
 
     return {

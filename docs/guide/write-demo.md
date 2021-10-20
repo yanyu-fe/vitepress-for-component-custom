@@ -17,7 +17,7 @@
 <demo src="../demo-example.vue"
   language="vue"
   title="Demo演示"
-  desc="测试\n测试">
+  desc="测试\n测试\nsadasds">
 </demo>
 
 ### demo在线演示
