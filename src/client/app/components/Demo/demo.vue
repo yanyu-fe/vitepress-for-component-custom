@@ -7,7 +7,9 @@
 
       <div class="demo-title-desc" v-show="title || desc">
         <span class="demo-title">{{ title }}</span>
-        <span class="demo-desc">{{ desc }}</span>
+        <slot name="desc">
+          <span class="demo-desc">{{ desc }}</span>
+        </slot>
       </div>
 
       <div class="demo-actions">
