@@ -10,15 +10,14 @@
 <demo src="../demo-example.vue"
   language="vue"
   title="Demo演示"
-  desc="这是一个Demo渲染示例">
-</demo>
+    desc="测试\n测试"></demo>
 ```
 
 渲染效果如下
 <demo src="../demo-example.vue"
   language="vue"
   title="Demo演示"
-  desc="这是一个Demo渲染示例">
+  desc="测试\n测试">
 </demo>
 
 ### demo在线演示

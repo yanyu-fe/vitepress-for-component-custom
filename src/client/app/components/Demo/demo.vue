@@ -7,9 +7,7 @@
 
       <div class="demo-title-desc" v-show="title || desc">
         <span class="demo-title">{{ title }}</span>
-        <slot name="desc">
-          <span class="demo-desc">{{ desc }}</span>
-        </slot>
+        <span class="demo-desc" v-html="getDesc"></span>
       </div>
 
       <div class="demo-actions">
@@ -82,7 +80,14 @@ export default {
       props.cssLibsStr
     )
 
+    const getDesc = computed(()=>{
+      // 判断数据中是否存在\n，存在就对当前的数据做换行处理
+      const desc = props.desc;
+      return desc?.replace(/\\n/,"<br/>")
+    })
+
     return {
+      getDesc,
       expand,
       toggleExpand,
       decodedHtmlStr,
