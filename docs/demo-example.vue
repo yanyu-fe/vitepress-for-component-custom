@@ -19,7 +19,6 @@
 import { ref } from 'vue'
 import VTypical from 'vue-typical'
 
-
 const count = ref(0)
 function onClick() {
   count.value++

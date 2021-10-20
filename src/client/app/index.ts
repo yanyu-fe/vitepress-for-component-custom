@@ -1,5 +1,4 @@
 import 'vite/dynamic-import-polyfill'
-import 'icpx-ui/dist/icons'
 import { App, createApp as createClientApp, createSSRApp, h } from 'vue'
 import { inBrowser, pathToFile } from './utils'
 import { Router, RouterSymbol, createRouter } from './router'
@@ -10,7 +9,6 @@ import { usePageData } from './composables/pageData'
 import { useUpdateHead } from './composables/head'
 import Theme from '/@theme/index'
 import { usePrefetch } from './composables/preFetch'
-
 const NotFound = Theme.NotFound || (() => '404 Not Found')
 
 const VitePressApp = {
@@ -113,8 +111,6 @@ function shouldHotReload(payload: any): boolean {
 
 if (inBrowser) {
   const { app, router } = createApp()
-  // 注册事件
-
   // wait until page component is fetched before mounting
   router.go().then(() => {
     app.mount('#app')

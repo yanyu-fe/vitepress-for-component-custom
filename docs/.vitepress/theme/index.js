@@ -1,5 +1,7 @@
 import DefaultTheme from 'vitepress/dist/client/theme-default'
+import 'icpx-ui/dist/icons.js'
 
+console.log('Sdsds')
 export default {
   ...DefaultTheme,
 
