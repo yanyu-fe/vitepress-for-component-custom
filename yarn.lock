@@ -3304,8 +3304,8 @@ icpx-http@^1.0.1-alpha.0:
 
 icpx-ui@^1.0.1-alpha.0:
   version "1.0.1-alpha.0"
-  resolved "http://10.0.59.137:30081/repository/icpx-public/icpx-ui/-/icpx-ui-1.0.1-alpha.0.tgz#f3c3e0d192099bd0cc6293c0ae456928491c03a7"
-  integrity sha512-hLaHGMtcTrbbP6s9pAXI3Cjes4WOlS1PT0J6OqZo9AXPiLncMsDcjiQAdHRDXZWdHoeMxBZZt2SxNfmlf4D19A==
+  resolved "http://10.0.59.137:30081/repository/icpx-public/icpx-ui/-/icpx-ui-1.0.1-alpha.0.tgz#4570b95099a95ae4888bd9e20fb376fc2e60ffa9"
+  integrity sha512-8yJDKTtGcqWr++htd0HY5VktmY2inySMLu73x5zW88GGb0Ws+1XUP5I4G9OFqn8aSzhJp0PulLCkm1jm6eV08A==
   dependencies:
     ant-design-vue "^2.2.2"
     icpx-declaration "^1.0.1-alpha.0"

@@ -1,4 +1,5 @@
 import 'vite/dynamic-import-polyfill'
+import 'icpx-ui/dist/icons'
 import { App, createApp as createClientApp, createSSRApp, h } from 'vue'
 import { inBrowser, pathToFile } from './utils'
 import { Router, RouterSymbol, createRouter } from './router'
@@ -112,6 +113,7 @@ function shouldHotReload(payload: any): boolean {
 
 if (inBrowser) {
   const { app, router } = createApp()
+  // 注册事件
 
   // wait until page component is fetched before mounting
   router.go().then(() => {
